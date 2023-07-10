@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-	// Check if there are at least two arguments
+	// Check if there are at least two arguments 
 	if len(os.Args) < 3 {
 		log.Fatal("Usage: go run main.go <baseline_file.json> <pr_file.json>")
 	}
