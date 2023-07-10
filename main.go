@@ -98,12 +98,12 @@ func main() {
 		}
 
 		// Write the updated PR diff scan to a file
-		err = ioutil.WriteFile("snyk_code_PR_diff_scan.json", updatedPRScan, 0644)
+		err = ioutil.WriteFile("snyk_code_pr_diff_scan.json", updatedPRScan, 0644)
 		if err != nil {
 			log.Fatalf("Failed to write updated data to file: %v", err)
 		}
     fmt.Printf("\n")
-		fmt.Println("Results saved in usnyk_code_PR_diff_scan.json")    
+		fmt.Println("Results saved in usnyk_code_pr_diff_scan.json")    
 		os.Exit(1)
 	}
   
