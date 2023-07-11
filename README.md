@@ -23,7 +23,9 @@ Compares two Snyk Code JSON files to provide details on:
 ## Usage
 - Run a Snyk Code scan and output a JSON file as the baseline.
 - Run another Snyk Code scan that has code changes and output a JSON file.
-- `snyk-code-pr-diff` `<baseline_scan.json>` `<pr_scan.json>`
+- Usage: `snyk-code-pr-diff` `<baseline_scan.json>` `<pr_scan.json>`
+- Example: ```snyk-code-pr-diff-amd64-linux /home/runner/work/goof/goof/snyk_code_baseline.json /home/runner/work/goof/goof/snyk_code_pr.json ```
+  
 
 ## Examples
 - GitHub Action example: https://github.com/hezro/snyk-code-pr-diff/blob/main/examples/github-action-baseline-scan-and-pr-scan.yml
