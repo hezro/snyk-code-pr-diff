@@ -31,5 +31,6 @@ Compares two Snyk Code JSON files to provide details on:
 - GitHub Action example: https://github.com/hezro/snyk-code-pr-diff/blob/main/examples/github-action-baseline-scan-and-pr-scan.yml
 
 ## GitHub Action Screenshot
-![image](https://github.com/hezro/snyk-code-pr-diff/assets/17459977/6934c42d-5f67-470b-b6aa-ec2b57cf2692)
+![image](https://github.com/hezro/snyk-code-pr-diff/assets/17459977/e90671d3-bfa1-413e-b85a-fba642008c1b)
+
 
